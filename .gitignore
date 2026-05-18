@@ -1,0 +1,30 @@
+# Env files
+.env
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
+
+# --- Editor & IDE Configs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+
+# --- Temporary / Test Files ---
+tmp/
+.tmp/
+temp/
+.temp/
+.tmp-pnpm/
+*.log
+
+# CSV output
+*.csv
