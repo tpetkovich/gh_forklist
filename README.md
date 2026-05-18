@@ -15,7 +15,7 @@ CLI usage help output:
 
 ```shell
 ❯ uv run gh_forklist.py -h
-usage: Github fork list to CSV. [-h] [-b BRANCH] [--include-identical] REPO
+usage: gh_forklist [-h] [-b BRANCH] [--include-identical] REPO
 
 Simple Github CLI wrapper to list the forks of a target Github repository with commit divergence details saved to a .csv file.
 Requires Github CLI executable `gh` in path with authentication set up.

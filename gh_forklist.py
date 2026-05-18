@@ -126,7 +126,7 @@ def generate_forklist(repo: str, branch: str, include_identical: bool):
 
 def build_parser() -> argparse.ArgumentParser:
 
-    PROG_NAME = "Github fork list to CSV."
+    PROG_NAME = "gh_forklist"
 
     p = argparse.ArgumentParser(
         prog=PROG_NAME,
